@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>React To-Do App</h1>
+      <h1 className="text-4xl font-bold ">React To-Do App</h1>
       <TodoInput onAdd={addTodo} />
       <TodoList todos={todos} onToggle={toggleTodo} onDelete={deleteTodo} />
     </div>
